@@ -67,6 +67,9 @@ d. PCR扩增：通过聚合酶链式反应（PCR）扩增适配体连接的DNA�
 
 [https://www.flowhub.com.cn/repo/flowhub_team/WholeGenomeSequencingFlo](https://www.flowhub.com.cn/repo/flowhub_team/WholeGenomeSequencingFlow)
 
+### WGS标准流程使用教程
+
+
 ### Fowhub平台介绍
 
 FlowHub 是一种创新的工作流云平台，为用户提供了全面而强大的功能。它不仅是一个可靠的数据管理平台，还是一个灵活的工具开发平台，一个高效的流程构建平台，一个智能的任务调度平台以及一个直观的数据可视化平台。
@@ -82,3 +85,8 @@ FlowHub 是一种创新的工作流云平台，为用户提供了全面而强大
 除此之外，FlowHub 还提供了强大的数据可视化功能。用户可以通过直观的图表、图形和报表，将复杂的数据转化为可理解和易于分析的形式。这使得用户能够更好地理解数据、发现潜在的模式和趋势，并做出基于数据的明智决策。
 
 总之，FlowHub 是一个功能丰富、易用而强大的工作流云平台，为用户提供了全面的数据管理、工具开发、流程构建、任务调度和数据可视化能力，帮助用户更高效地处理和分析数据，提升工作效率和决策能力。
+
+### 联系我们
+email: flowhub_team@flowhub.com.cn
+电话: 17399981010
+微信: 
