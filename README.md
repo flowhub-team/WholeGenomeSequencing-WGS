@@ -60,3 +60,4 @@ d. PCR扩增：通过聚合酶链式反应（PCR）扩增适配体连接的DNA�
 根据分析的结果，对基因组测序数据进行解读，并形成报告。报告可能涵盖样本的遗传风险、潜在的致病变异、药物敏感性等信息。
 
 ### 标准WGS生物信息分析流程
+![流程图](https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/WholeGenomeSequencingFlow.png)
