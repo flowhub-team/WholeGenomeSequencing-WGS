@@ -49,6 +49,11 @@ d. PCR扩增：通过聚合酶链式反应（PCR）扩增适配体连接的DNA�
    6. Platypus：Platypus是一个灵活的变异检测工具，可以从WGS数据中检测SNPs、Indels和结构变异。它具有高度可配置性，并且支持多样本分析。了解更多信息，请访问[Platypus GitHub](https://github.com/andyrimmer/Platypus)。
 7. 注释和功能分析：
 对检测到的变异进行注释，确定其可能的功能和影响。注释可以包括变异在基因区域的位置、氨基酸改变的影响、潜在的功能通路等。
+   1. ANNOVAR：ANNOVAR是一个用于注释基因组变异的工具，可以根据各种数据库提供详细的注释信息。它支持多种变异类型的注释，包括SNP、Indel、结构变异等。了解更多信息，请访问[ANNOVAR官方网站](https://annovar.openbioinformatics.org/en/latest/)。
+   2. Variant Effect Predictor (VEP)：VEP是一个广泛使用的工具，用于注释和预测变异的功能影响。它能够提供详细的注释信息，包括变异的基因影响、功能改变、突变致病性预测等。了解更多信息，请访问[VEP官方网站](https://www.ensembl.org/info/docs/tools/vep/index.html)。
+   3. SnpEff：SnpEff是一个用于注释和预测SNP和结构变异的功能影响的工具。它能够提供变异的注释、基因影响、功能改变以及通路分析等。有关详细信息，请访问[SnpEff官方网站](http://snpeff.sourceforge.net/)。
+   4. dbNSFP：dbNSFP是一个基因组功能预测数据库，提供了大量的注释和预测信息。它包含了来自多个公共数据库的功能预测结果，并提供了丰富的注释信息，如SIFT、PolyPhen-2、GERP++等。有关详细信息，请访问[dbNSFP官方网站](https://sites.google.com/site/jpopgen/dbNSFP)。
+   5. DAVID：DAVID（Database for Annotation, Visualization, and Integrated Discovery）是一个功能注释和富集分析工具，可以帮助用户理解基因组变异的功能和相关的生物学过程。它整合了多个公共数据库，提供了注释、功能分析和通路分析等功能。了解更多信息，请访问[DAVID官方网站](https://david.ncifcrf.gov/)。
 
 8. 结果解读和报告：
 根据分析的结果，对基因组测序数据进行解读，并形成报告。报告可能涵盖样本的遗传风险、潜在的致病变异、药物敏感性等信息。
