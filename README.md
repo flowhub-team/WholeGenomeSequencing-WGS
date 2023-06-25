@@ -15,7 +15,21 @@ d. PCR扩增：通过聚合酶链式反应（PCR）扩增适配体连接的DNA�
 
 4. 数据预处理：
 从测序仪器中生成的原始测序数据称为"reads"。在进行进一步的分析之前，需要对这些数据进行预处理和质量控制，以去除低质量的reads和适配体序列。
+   1. Trimmomatic：用于去除测序reads中的适配体序列、低质量碱基和低质量reads。你可以在 [Trimmomatic GitHub](https://github.com/timflutre/trimmomatic) 上找到更多信息和使用说明。
 
+   2. FastQC：用于评估测序reads的质量分布和其他质量指标。它可以帮助检测测序过程中的潜在问题，如测序质量下降、适配体污染等。有关更多信息，请访问 [FastQC网站](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)。
+
+   3. BWA-MEM：用于将测序reads比对到参考基因组上。BWA-MEM采用快速的seed-and-extend算法，能够高效地处理较长的reads。你可以在 [BWA-MEM GitHub](https://github.com/lh3/bwa) 上获取详细的文档和使用说明。
+
+   4. Bowtie2：用于将reads比对到参考基因组。它结合了快速的seed-and-extend算法和最大可信权值路径算法，适用于短序列的比对。你可以在 [Bowtie2官方网站](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml) 上了解更多信息。
+
+   5. SAMtools：用于处理比对结果的工具集，可以进行SAM/BAM格式文件的转换、排序、索引和过滤。此外，它还提供了一系列命令行工具，用于统计比对信息、检测SNPs和Indels等。你可以在 [SAMtools官方网站](http://www.htslib.org/) 上找到更多的文档和下载链接。
+
+   6. GATK（Genome Analysis Toolkit）：是一个用于基因组数据的分析和变异检测的工具集。它提供了多种算法和工具，包括基因组重比对、SNP/Indel检测、变异过滤等。有关详细信息，请访问 [GATK官方网站](https://gatk.broadinstitute.org/hc/en-us)。
+
+   7. Picard Tools：用于处理SAM/BAM文件的工具集，可以标记PCR重复、计算覆盖度、创建统计报告等。你可以在 [Picard Tools官方网站](https://broadinstitute.github.io/picard/) 上了解更多信息和使用说明。
+
+   8. QualiMap：用于评估测序数据质量的工具，可以检测测序reads的覆盖度、GC含量、错误率等质量指标，并生成相应的统计图表和报告。有关更多信息，请访问 [QualiMap官方网站](https://gatk.broadinstitute.org/hc/en-us)。
 5. 数据比对和基因组装：
 将预处理后的reads与参考基因组进行比对或基因组装。比对是将reads与已知基因组序列进行比较，确定每个read在基因组中的位置。基因组装是将reads组合成更长的连续序列，以重建基因组的整体结构。
 
