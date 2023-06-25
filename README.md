@@ -61,3 +61,6 @@ d. PCR扩增：通过聚合酶链式反应（PCR）扩增适配体连接的DNA�
 
 ### 标准WGS生物信息分析流程
 ![流程图](https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/WholeGenomeSequencingFlow.png)
+
+### WGS标准流程在线分析地址
+[WholeGenomeSequencingFlow](https://www.flowhub.com.cn/repo/flowhub_team/WholeGenomeSequencingFlow)
