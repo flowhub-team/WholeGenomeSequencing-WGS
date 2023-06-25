@@ -41,7 +41,12 @@ d. PCR扩增：通过聚合酶链式反应（PCR）扩增适配体连接的DNA�
       3. SOAPdenovo：一个用于基因组组装的快速和高效的工具。它基于de Bruijn图算法，适用于大规模基因组的组装。了解更多信息，请访问[SOAPdenovo官方网站](http://soap.genomics.org.cn/soapdenovo.html)。
 6. 变异检测：
 使用比对或基因组装的结果，识别和分析样本中的基因组变异。这些变异可能包括单核苷酸多态性（SNPs）、插入/缺失（indels）、基因重排等。变异检测的方法和工具会根据研究目的而有所不同。
-
+   1. GATK（Genome Analysis Toolkit）：GATK是一个广泛使用的工具集，用于基因组数据的分析和变异检测。它提供了多种算法和工具，包括基因组重比对、SNP/Indel检测、变异过滤等。了解更多信息，请访问[GATK官方网站](https://gatk.broadinstitute.org/)。
+   2. VarScan：VarScan是一种用于检测SNPs、Indels和结构变异的工具，特别适用于对比分析。它能够从比对数据中识别变异，并提供统计学过滤和注释。有关详细信息，请访问[VarScan官方网站](http://varscan.sourceforge.net/)。
+   3. FreeBayes：FreeBayes是一个开源的SNP和Indel检测工具，能够从测序数据中检测变异。它采用贝叶斯统计方法进行变异检测，并提供了高灵敏度和准确性。了解更多信息，请访问[FreeBayes GitHub](https://github.com/ekg/freebayes)。
+   4. MuTect：MuTect是一个专门用于检测肿瘤样本中的突变的工具。它可以分析肿瘤-正常对比数据，并鉴定出肿瘤样本中的突变。了解更多信息，请访问[MuTect官方网站](https://software.broadinstitute.org/cancer/cga/mutect)。
+   5. Samtools：Samtools是一个用于处理比对数据（SAM/BAM格式）的工具集，同时也提供了一些变异检测功能。它可以进行SNP/Indel检测、过滤和注释等。有关详细信息，请访问[Samtools官方网站](http://www.htslib.org/)。
+   6. Platypus：Platypus是一个灵活的变异检测工具，可以从WGS数据中检测SNPs、Indels和结构变异。它具有高度可配置性，并且支持多样本分析。了解更多信息，请访问[Platypus GitHub](https://github.com/andyrimmer/Platypus)。
 7. 注释和功能分析：
 对检测到的变异进行注释，确定其可能的功能和影响。注释可以包括变异在基因区域的位置、氨基酸改变的影响、潜在的功能通路等。
 
