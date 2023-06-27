@@ -91,6 +91,6 @@ In summary, FlowHub is a feature-rich, user-friendly, and powerful workflow clou
 
 email: flowhub_team@flowhub.com.cn
 
-Phone: 17399981010
+Phone: (+86)17399981010
 
 Wechat: 
