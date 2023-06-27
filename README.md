@@ -41,14 +41,14 @@
         1. SPAdes: Used for genome assembly from sequencing reads, including single-cell sequencing data. It combines de Bruijn graph algorithm with various optimization strategies and is suitable for various types of sequencing data. More information and usage instructions can be found on the [SPAdes GitHub](https://github.com/ablab/spades).
         2. Velvet: A de Bruijn graph-based genome assembly tool suitable for short sequencing data. It reconstructs genome sequences by building k-mer graphs. For detailed information, please visit the [Velvet website](https://www.ebi.ac.uk/~zerbino/velvet/).
         3. SOAPdenovo: A fast and efficient tool for genome assembly. It is based on the de Bruijn graph algorithm and is suitable for large-scale genome assembly. For more information, please visit the [SOAPdenovo website](http://soap.genomics.org.cn/soapdenovo.html).
-6. 变异检测：
-   使用比对或基因组装的结果，识别和分析样本中的基因组变异。这些变异可能包括单核苷酸多态性（SNPs）、插入/缺失（indels）、基因重排等。变异检测的方法和工具会根据研究目的而有所不同。
-    1. GATK（Genome Analysis Toolkit）：GATK是一个广泛使用的工具集，用于基因组数据的分析和变异检测。它提供了多种算法和工具，包括基因组重比对、SNP/Indel检测、变异过滤等。了解更多信息，请访问[GATK官方网站](https://gatk.broadinstitute.org/)。
-    2. VarScan：VarScan是一种用于检测SNPs、Indels和结构变异的工具，特别适用于对比分析。它能够从比对数据中识别变异，并提供统计学过滤和注释。有关详细信息，请访问[VarScan官方网站](http://varscan.sourceforge.net/)。
-    3. FreeBayes：FreeBayes是一个开源的SNP和Indel检测工具，能够从测序数据中检测变异。它采用贝叶斯统计方法进行变异检测，并提供了高灵敏度和准确性。了解更多信息，请访问[FreeBayes GitHub](https://github.com/ekg/freebayes)。
-    4. MuTect：MuTect是一个专门用于检测肿瘤样本中的突变的工具。它可以分析肿瘤-正常对比数据，并鉴定出肿瘤样本中的突变。了解更多信息，请访问[MuTect官方网站](https://software.broadinstitute.org/cancer/cga/mutect)。
-    5. Samtools：Samtools是一个用于处理比对数据（SAM/BAM格式）的工具集，同时也提供了一些变异检测功能。它可以进行SNP/Indel检测、过滤和注释等。有关详细信息，请访问[Samtools官方网站](http://www.htslib.org/)。
-    6. Platypus：Platypus是一个灵活的变异检测工具，可以从WGS数据中检测SNPs、Indels和结构变异。它具有高度可配置性，并且支持多样本分析。了解更多信息，请访问[Platypus GitHub](https://github.com/andyrimmer/Platypus)。
+6. Mutation Detection:
+   Mutation detection involves identifying and analyzing genomic variations in the sample using the results from alignment or genome assembly. These variations may include single nucleotide polymorphisms (SNPs), insertions/deletions (indels), gene rearrangements, etc. The methods and tools for mutation detection may vary depending on the research purpose.
+    1. GATK (Genome Analysis Toolkit): GATK is a widely used toolset for genomic data analysis and mutation detection. It provides various algorithms and tools, including genome re-alignment, SNP/indel detection, variant filtering, etc. For more information, please visit the [GATK website](https://gatk.broadinstitute.org/).
+    2. VarScan: VarScan is a tool for detecting SNPs, indels, and structural variations, particularly suitable for comparative analysis. It can identify variations from alignment data and provides statistical filtering and annotation. For detailed information, please visit the [VarScan website](http://varscan.sourceforge.net/).
+    3. FreeBayes: FreeBayes is an open-source tool for SNP and indel detection from sequencing data. It employs Bayesian statistical methods for variant calling and offers high sensitivity and accuracy. For more information, please visit the [FreeBayes GitHub](https://github.com/ekg/freebayes).
+    4. MuTect: MuTect is a tool specifically designed for detecting mutations in tumor samples. It analyzes tumor-normal paired data and identifies mutations in the tumor sample. For more information, please visit the [MuTect website](https://software.broadinstitute.org/cancer/cga/mutect).
+    5. Samtools: Samtools is a toolkit for handling alignment data (SAM/BAM format) and also provides some mutation detection functionalities. It can perform SNP/indel detection, filtering, annotation, etc. For detailed information, please visit the [Samtools website](http://www.htslib.org/).
+    6. Platypus: Platypus is a flexible mutation detection tool capable of detecting SNPs, indels, and structural variations from WGS data. It offers high configurability and supports multi-sample analysis. For more information, please visit the [Platypus GitHub](https://github.com/andyrimmer/Platypus).
 7. 注释和功能分析：
    对检测到的变异进行注释，确定其可能的功能和影响。注释可以包括变异在基因区域的位置、氨基酸改变的影响、潜在的功能通路等。
     1. ANNOVAR：ANNOVAR是一个用于注释基因组变异的工具，可以根据各种数据库提供详细的注释信息。它支持多种变异类型的注释，包括SNP、Indel、结构变异等。了解更多信息，请访问[ANNOVAR官方网站](https://annovar.openbioinformatics.org/en/latest/)。
