@@ -94,4 +94,4 @@ email: flowhub_team@flowhub.com.cn
 Phone: (+86)17399981010
 
 Wechat: 
-![add my wechat]()
+![add my wechat](https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/wechat.jpg)
