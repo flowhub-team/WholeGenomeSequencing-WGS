@@ -1,7 +1,7 @@
 # Whole Genome Sequencing
 
 ### WGS Analysis Process
-
+[中文版](https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/README_cn.md)
 1. Experimental Preparation:
    Prior to initiating the analysis, it is necessary to prepare the samples and relevant experimental materials. The samples can be DNA extracts typically obtained from blood, tissue, or cells. Experimental preparation includes quality control checks, DNA library construction, and preparation of sequencing chips.
 
