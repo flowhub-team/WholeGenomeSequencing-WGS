@@ -32,15 +32,15 @@
     7. Picard Tools: A toolkit for processing SAM/BAM files, which can mark PCR duplicates, calculate coverage, create statistical reports, and more. Additional information and usage instructions can be found on the [Picard Tools website](https://broadinstitute.github.io/picard/).
 
     8. QualiMap: A tool used to assess the quality of sequencing data. It detects quality metrics such as coverage, GC content, error rates of sequencing reads, and generates corresponding statistical charts and reports. For more information, please visit the  [QualiMap website](https://gatk.broadinstitute.org/hc/en-us).
-5. 数据比对和基因组装：
-   将预处理后的reads与参考基因组进行比对或基因组装。比对是将reads与已知基因组序列进行比较，确定每个read在基因组中的位置。基因组装是将reads组合成更长的连续序列，以重建基因组的整体结构。
-    1. 比对工具：
-        1. BWA-MEM：用于将测序reads比对到参考基因组上。它采用快速的seed-and-extend算法，适用于处理较长的reads。你可以在[BWA-MEM GitHub](https://github.com/lh3/bwa)上获取详细的文档和使用说明。
-        2. Bowtie2：用于将reads比对到参考基因组。它结合了快速的seed-and-extend算法和最大可信权值路径算法，适用于短序列的比对。了解更多信息，请访问[Bowtie2官方网站](https://www.ebi.ac.uk/~zerbino/velvet/)。
-    2. 基因组装工具：
-        1. SPAdes：用于从测序reads中进行基因组组装，包括单细胞测序数据。它结合了de Bruijn图算法和多种优化策略，适用于各种类型的测序数据。你可以在[SPAdes GitHub](https://github.com/ablab/spades)上找到更多信息和使用说明。
-        2. Velvet：基于de Bruijn图的基因组组装工具，适用于短序列测序数据。它通过构建k-mer图来重建基因组序列。有关详细信息，请访问[Velvet官方网站](https://www.ebi.ac.uk/~zerbino/velvet/)。
-        3. SOAPdenovo：一个用于基因组组装的快速和高效的工具。它基于de Bruijn图算法，适用于大规模基因组的组装。了解更多信息，请访问[SOAPdenovo官方网站](http://soap.genomics.org.cn/soapdenovo.html)。
+5. Data Alignment and Genome Assembly:
+   Aligning or assembling the preprocessed reads with a reference genome is performed. Alignment involves comparing reads to known genomic sequences to determine their positions in the genome. Genome assembly involves combining reads to generate longer contiguous sequences, reconstructing the overall structure of the genome.
+    1. Alignment Tools:
+        1. BWA-MEM: Used to align sequencing reads to a reference genome. It employs a fast seed-and-extend algorithm and is suitable for handling longer reads. Detailed documentation and usage instructions can be found on the[BWA-MEM GitHub](https://github.com/lh3/bwa).
+        2. Bowtie2: Used to align reads to a reference genome. It combines a fast seed-and-extend algorithm with a maximum-likelihood alignment algorithm and is suitable for aligning short sequences. For more information, please visit the[Bowtie2 website](https://www.ebi.ac.uk/~zerbino/velvet/).
+    2. Genome Assembly Tools:
+        1. SPAdes: Used for genome assembly from sequencing reads, including single-cell sequencing data. It combines de Bruijn graph algorithm with various optimization strategies and is suitable for various types of sequencing data. More information and usage instructions can be found on the [SPAdes GitHub](https://github.com/ablab/spades).
+        2. Velvet: A de Bruijn graph-based genome assembly tool suitable for short sequencing data. It reconstructs genome sequences by building k-mer graphs. For detailed information, please visit the [Velvet website](https://www.ebi.ac.uk/~zerbino/velvet/).
+        3. SOAPdenovo: A fast and efficient tool for genome assembly. It is based on the de Bruijn graph algorithm and is suitable for large-scale genome assembly. For more information, please visit the [SOAPdenovo website](http://soap.genomics.org.cn/soapdenovo.html).
 6. 变异检测：
    使用比对或基因组装的结果，识别和分析样本中的基因组变异。这些变异可能包括单核苷酸多态性（SNPs）、插入/缺失（indels）、基因重排等。变异检测的方法和工具会根据研究目的而有所不同。
     1. GATK（Genome Analysis Toolkit）：GATK是一个广泛使用的工具集，用于基因组数据的分析和变异检测。它提供了多种算法和工具，包括基因组重比对、SNP/Indel检测、变异过滤等。了解更多信息，请访问[GATK官方网站](https://gatk.broadinstitute.org/)。
