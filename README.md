@@ -49,47 +49,48 @@
     4. MuTect: MuTect is a tool specifically designed for detecting mutations in tumor samples. It analyzes tumor-normal paired data and identifies mutations in the tumor sample. For more information, please visit the [MuTect website](https://software.broadinstitute.org/cancer/cga/mutect).
     5. Samtools: Samtools is a toolkit for handling alignment data (SAM/BAM format) and also provides some mutation detection functionalities. It can perform SNP/indel detection, filtering, annotation, etc. For detailed information, please visit the [Samtools website](http://www.htslib.org/).
     6. Platypus: Platypus is a flexible mutation detection tool capable of detecting SNPs, indels, and structural variations from WGS data. It offers high configurability and supports multi-sample analysis. For more information, please visit the [Platypus GitHub](https://github.com/andyrimmer/Platypus).
-7. 注释和功能分析：
-   对检测到的变异进行注释，确定其可能的功能和影响。注释可以包括变异在基因区域的位置、氨基酸改变的影响、潜在的功能通路等。
-    1. ANNOVAR：ANNOVAR是一个用于注释基因组变异的工具，可以根据各种数据库提供详细的注释信息。它支持多种变异类型的注释，包括SNP、Indel、结构变异等。了解更多信息，请访问[ANNOVAR官方网站](https://annovar.openbioinformatics.org/en/latest/)。
-    2. Variant Effect Predictor (VEP)：VEP是一个广泛使用的工具，用于注释和预测变异的功能影响。它能够提供详细的注释信息，包括变异的基因影响、功能改变、突变致病性预测等。了解更多信息，请访问[VEP官方网站](https://www.ensembl.org/info/docs/tools/vep/index.html)。
-    3. SnpEff：SnpEff是一个用于注释和预测SNP和结构变异的功能影响的工具。它能够提供变异的注释、基因影响、功能改变以及通路分析等。有关详细信息，请访问[SnpEff官方网站](http://snpeff.sourceforge.net/)。
-    4. dbNSFP：dbNSFP是一个基因组功能预测数据库，提供了大量的注释和预测信息。它包含了来自多个公共数据库的功能预测结果，并提供了丰富的注释信息，如SIFT、PolyPhen-2、GERP++等。有关详细信息，请访问[dbNSFP官方网站](https://sites.google.com/site/jpopgen/dbNSFP)。
-    5. DAVID：DAVID（Database for Annotation, Visualization, and Integrated Discovery）是一个功能注释和富集分析工具，可以帮助用户理解基因组变异的功能和相关的生物学过程。它整合了多个公共数据库，提供了注释、功能分析和通路分析等功能。了解更多信息，请访问[DAVID官方网站](https://david.ncifcrf.gov/)。
+7. Annotation and Functional Analysis:
+   Annotation of detected variations is performed to determine their potential functions and impacts. Annotations can include the genomic location of the variation, amino acid changes, potential functional pathways, etc.
+    1. ANNOVAR: ANNOVAR is a tool for annotating genomic variations, providing detailed annotation information from various databases. It supports annotation of various types of variations, including SNPs, indels, structural variations, etc. For more information, please visit the [ANNOVAR official website](https://annovar.openbioinformatics.org/en/latest/).
+    2. Variant Effect Predictor (VEP): VEP is a widely used tool for annotating and predicting the functional impacts of variations. It provides detailed annotation information, including gene effects, functional changes, mutation pathogenicity predictions, etc. For more information, please visit the [VEP official website](https://www.ensembl.org/info/docs/tools/vep/index.html).
+    3. SnpEff: SnpEff is a tool for annotating and predicting the functional impacts of SNPs and structural variations. It provides annotation of variations, gene effects, functional changes, pathway analysis, etc. For detailed information, please visit the [SnpEff official website](http://snpeff.sourceforge.net/).
+    4. dbNSFP: dbNSFP is a database for genomic functional predictions, offering extensive annotation and prediction information. It includes functional prediction results from multiple public databases and provides rich annotation information, such as SIFT, PolyPhen-2, GERP++, etc. For detailed information, please visit the [dbNSFP office website](https://sites.google.com/site/jpopgen/dbNSFP).
+    5. DAVID (Database for Annotation, Visualization, and Integrated Discovery): DAVID is a tool for functional annotation and enrichment analysis that helps users understand the functional aspects and related biological processes of genomic variations. It integrates multiple public databases and provides annotation, functional analysis, pathway analysis, etc. For more information, please visit the [DAVID official website](https://david.ncifcrf.gov/).
 
-8. 结果解读和报告：
-   根据分析的结果，对基因组测序数据进行解读，并形成报告。报告可能涵盖样本的遗传风险、潜在的致病变异、药物敏感性等信息。
+8. Result Interpretation and Reporting:
+   Based on the analysis results, the genomic sequencing data is interpreted, and a report is generated. The report may include information about the genetic risks, potential pathogenic variants, drug sensitivity, and other relevant information pertaining to the sample.
 
-### 标准WGS生物信息分析流程
+### Standard WGS bioinformatics analysis pipeline
 ![流程图](https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/WholeGenomeSequencingFlow.png)
 
-### WGS标准流程在线分析地址
+### WGS standard workflow online analysis address
 [WholeGenomeSequencingFlow](https://www.flowhub.com.cn/repo/flowhub_team/WholeGenomeSequencingFlow)
 
 [https://www.flowhub.com.cn/repo/flowhub_team/WholeGenomeSequencingFlo](https://www.flowhub.com.cn/repo/flowhub_team/WholeGenomeSequencingFlow)
 
-### WGS标准流程使用教程
+### WGS Standard Workflow Tutorial
 
 
-### Fowhub平台介绍
+### Introduction to Fowhub Platform
 
-FlowHub 是一种创新的工作流云平台，为用户提供了全面而强大的功能。它不仅是一个可靠的数据管理平台，还是一个灵活的工具开发平台，一个高效的流程构建平台，一个智能的任务调度平台以及一个直观的数据可视化平台。
+FlowHub is an innovative cloud-based workflow platform that offers users comprehensive and powerful functionalities. It serves not only as a reliable data management platform but also as a flexible tool development platform, efficient workflow construction platform, intelligent task scheduling platform, and intuitive data visualization platform.
 
-作为数据管理平台，FlowHub 提供了强大的数据存储和处理能力，用户可以安全地存储和管理各种类型的数据。通过直观的界面和易于使用的工具，用户可以轻松地对数据进行增删改查、导入导出等操作，实现对数据的全面管理。
+As a data management platform, FlowHub provides robust data storage and processing capabilities, allowing users to securely store and manage various types of data. Through an intuitive interface and user-friendly tools, users can easily perform operations such as data manipulation, import/export, and comprehensive data management.
 
-作为工具开发平台，FlowHub 提供了丰富的开发工具和接口，使用户能够自定义和扩展平台的功能。用户可以使用自己熟悉的编程语言和技术，开发和集成各种工具、插件和扩展，以满足自己特定的需求。
+As a tool development platform, FlowHub offers a rich set of development tools and interfaces, enabling users to customize and extend the platform's functionalities. Users can utilize their preferred programming languages and technologies to develop and integrate various tools, plugins, and extensions to meet their specific needs.
 
-流程构建是 FlowHub 的核心特性之一。它提供了直观的图形化界面，使用户能够以可视化的方式设计和构建工作流程。通过简单的拖放操作，用户可以将不同的任务和操作连接起来，形成完整的工作流程。这种图形化的方式不仅提高了工作效率，还降低了错误发生的概率。
+Workflow construction is one of the core features of FlowHub. It provides a visual and intuitive graphical interface that allows users to design and build workflows in a visual manner. Through simple drag-and-drop operations, users can connect different tasks and operations to create complete workflows. This graphical approach not only enhances work efficiency but also reduces the probability of errors.
 
-任务调度是 FlowHub 的另一个重要功能，它能够智能地管理和调度任务的执行。用户可以设置任务的优先级、依赖关系和调度规则，FlowHub 将自动根据这些设置来合理安排任务的执行顺序和时间，以确保工作流程的顺利进行。
+Task scheduling is another important feature of FlowHub, as it intelligently manages and schedules task execution. Users can set task priorities, dependencies, and scheduling rules, and FlowHub will automatically arrange task execution order and timing based on these settings to ensure the smooth progression of the workflow.
 
-除此之外，FlowHub 还提供了强大的数据可视化功能。用户可以通过直观的图表、图形和报表，将复杂的数据转化为可理解和易于分析的形式。这使得用户能够更好地理解数据、发现潜在的模式和趋势，并做出基于数据的明智决策。
+In addition, FlowHub provides powerful data visualization capabilities. Users can transform complex data into understandable and analyzable forms through intuitive charts, graphs, and reports. This enables users to better understand the data, discover potential patterns and trends, and make informed decisions based on the data.
 
-总之，FlowHub 是一个功能丰富、易用而强大的工作流云平台，为用户提供了全面的数据管理、工具开发、流程构建、任务调度和数据可视化能力，帮助用户更高效地处理和分析数据，提升工作效率和决策能力。
+In summary, FlowHub is a feature-rich, user-friendly, and powerful workflow cloud platform that provides comprehensive data management, tool development, workflow construction, task scheduling, and data visualization capabilities. It helps users efficiently handle and analyze data, enhance work efficiency, and improve decision-making abilities.
 
-### 联系我们
+### To contact us, please use the following contact information:
+
 email: flowhub_team@flowhub.com.cn
 
-电话: 17399981010
+Phone: 17399981010
 
-微信: 
+Wechat: 
