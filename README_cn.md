@@ -89,7 +89,7 @@ d. PCR扩增：通过聚合酶链式反应（PCR）扩增适配体连接的DNA�
 ![step7](https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/tutoral-step7.png)
 + Step8：进入项目后，在Flie中上传需要处理的数据文件。进入job，点击“create job”创建任务。
 ![step8](https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/tutoral-step8.png)
-+ Step9：点击“choose flow”，根据指引选择WGS流程，点击“next step”进行输入文件选择。
++ Step9：点击“choose flow”，根据指引选择对应流程，点击“next step”进行输入文件选择。
 ![step9](https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/tutoral-step9.png)
 + Step10：
  1. 在OutPut folder指定任务的所有输出文件的根目录；

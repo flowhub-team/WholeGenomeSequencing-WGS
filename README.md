@@ -70,36 +70,36 @@
 
 ### WGS Standard Workflow Tutorial
 
-#### 如何使用FlowHub快速完成数据分析
-+ Step1：点击流程链接，进入FLOWHUB标准流程订阅界面，点击“subscribe”，订阅flow。
+#### How to use FlowHub to quickly complete data analysis
++ Step1：Click flow link，Enter FLOWHUB standard subscribe page，click "subscribe" to subscribe to the flow.
   ![step1](https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/tutoral-step1.png)
-+ Step2：如果您没有FlowHub平台账号，订阅不会成功，将会进入FLOWHUB平台登录界面，已经有账号的直接账号密码登录进入平台，无账号点击“sign up”根据指引完成注册。
++ Step2：If you do not log in to the platform in advance, the subscription will not be successful, and you will enter the login interface of the FLOWHUB platform. If you already have an account, you can log in to the platform directly with the account password. If you do not have an account, click "sign up" to complete the registration according to the instructions.
 
    <img src="https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/tutoral-step2.png" width="400" alt="step2" />
 
-+ Step3：登录进入平台，再次进入FLOWHUB标准流程订阅界面，再次点击“subscribe”，进行订阅，点击“Sure”完成订阅。
++ Step3：Login to the platform, enter the FLOWHUB standard pipeline subscription interface again, click "subscribe" once more, proceed with the subscription, and click "Sure" to complete the subscription.
   ![step3](https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/tutoral-step3.png)
 
-+ Step4：订阅完成后进入Community-Subscribe Manage界面，添加对应标准流程进平台项目中，根据指引，点击“Sure”创建新项目。
++ Step4：After completing the subscription, enter the Community-Subscribe Manage interface, add the corresponding standard process to the platform project, follow the instructions, and click "Sure" to create a new project.
   ![step4](https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/tutoral-step4.png)
-+ Step5：根据指引完成新项目创建。
++ Step5：Complete the new project creation according to the instructions.
   ![step5](https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/tutoral-step5.png)
-+ Step6：完成新项目创建后，根据指引再次添加flow进入新创建项目中。
++ Step6：After completing the creation of the new project, follow the instructions to add a flow again and enter the newly created project.
   ![step6](https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/tutoral-step6.png)
-+ Step7：添加成功以后，点击右上方“PROJECT”，出现项目列表，快速进入流程所在的项目。
++ Step7：After successful addition, click on "PROJECT" in the upper right corner to display the project list and quickly access the project where the flow is located.
   ![step7](https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/tutoral-step7.png)
-+ Step8：进入项目后，在Flie中上传需要处理的数据文件。进入job，点击“create job”创建任务。
++ Step8：Upon entering the project, upload the data file that needs to be processed in the "Files" section. Then, navigate to the job and click on "Create Job" to create a task.
   ![step8](https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/tutoral-step8.png)
-+ Step9：点击“choose flow”，根据指引选择WGS流程，点击“next step”进行输入文件选择。
++ Step9：Click on "Choose Flow" and follow the instructions to select the flow. Then, click on "Next Step" to proceed with the selection of input files.
   ![step9](https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/tutoral-step9.png)
 + Step10：
-1. 在OutPut folder指定任务的所有输出文件的根目录；
-2. 在Input Flie根据端点名称，选择输入文件；
-3. 在Output Flie对需要标记的输出文件进行重命名；
+1. Specify the root directory for all output files of the task in the "Output folder" field.
+2. In the "Input File" section, select the input file based on the endpoint name.
+3. In the "Output File" section, rename the output file that needs to be labeled.
    ![step10-1](https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/tutoral-step10-1.png)
-4. 查看job内使用的tool，进行个性化参数调整，CPU/GPU调整，如执行标准化流程无需更改。
+4. Check the tools used within the job and make personalized parameter adjustments, such as CPU/GPU settings. If executing the standardization process, no changes are needed.
    ![step10-2](https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/tutoral-step10-2.png)
-+ Step11：设置完成，根据指引完成job提交，等待计算结果。详细教程可查看[https://doc.flowhub.com.cn/en/](https://doc.flowhub.com.cn/en/)。
++ Step11：Once the settings are completed, follow the instructions to submit the job and wait for the computation results. For detailed instructions, please refer to the tutorial.``[https://doc.flowhub.com.cn/en/](https://doc.flowhub.com.cn/en/)。
 
 
 ### Introduction to Fowhub Platform
