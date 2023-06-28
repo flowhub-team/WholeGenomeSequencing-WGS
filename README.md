@@ -70,6 +70,9 @@
 
 ### WGS Standard Workflow Tutorial
 
+#### 如何使用FlowHub快速完成数据分析
++ Step1：点击流程链接，进入FLOWHUB标准流程订阅界面，点击“subscribe”，订阅flow。
+
 
 ### Introduction to Fowhub Platform
 
