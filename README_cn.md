@@ -74,7 +74,8 @@ d. PCR扩增：通过聚合酶链式反应（PCR）扩增适配体连接的DNA�
 ![step1](https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/tutoral-step1.png)
 + Step2：如果您没有FlowHub平台账号，订阅不会成功，将会进入FLOWHUB平台登录界面，已经有账号的直接账号密码登录进入平台，无账号点击“sign up”根据指引完成注册。
 
-<img src="https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/tutoral-step2.png" width="200" alt="step2">
+<img src="https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/tutoral-step2.png" width="400" alt="step2" />
+
 + Step3：登录进入平台，再次进入FLOWHUB标准流程订阅界面，再次点击“subscribe”，进行订阅，点击“Sure”完成订阅。
 ![step3](https://github.com/flowhub-team/WholeGenomeSequencing/blob/main/asset/tutoral-step3.png)
 
