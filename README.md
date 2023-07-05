@@ -66,7 +66,7 @@
 ### WGS standard workflow online analysis address
 [WholeGenomeSequencingFlow](https://www.flowhub.com.cn/repo/flowhub_team/WholeGenomeSequencingFlow)
 
-[https://www.flowhub.com.cn/repo/flowhub_team/WholeGenomeSequencingFlo](https://www.flowhub.com.cn/repo/flowhub_team/WholeGenomeSequencingFlow)
+[https://www.flowhub.com.cn/repo/flowhub_team/WholeGenomeSequencingFlow](https://www.flowhub.com.cn/repo/flowhub_team/WholeGenomeSequencingFlow)
 
 ### WGS Standard Workflow Tutorial
 
